@@ -131,7 +131,7 @@ h2{
     width: 28em;
     position: relative;
     bottom: 0px;
-    color: black;
+    color: white;
     font-family: Roboto;
     margin-top:80%;
     left: 55%;
@@ -141,7 +141,7 @@ h2{
     font-size: 28px;
     font-style: italic;
     font-weight: bold;
-    background-color: rgba(255,255,255,0.025);
+    background-color: rgba(211,211,211,0.025);
     border-radius: 4%; 
     align-content: center;
 }
