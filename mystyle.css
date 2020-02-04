@@ -1,0 +1,191 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-weight: normal;
+    background-image:  url('freelightbulb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+
+}
+
+
+.images_div img{
+    margin-top: 1%;
+    height: 38%;
+    left: 20px;
+    border-radius: 100%;
+    margin-left:40px;
+    position: fixed;
+
+}
+
+h2{
+    font-family: Cambria;
+    margin-left: 40px;
+    color:black;
+
+}
+
+.rightside{
+    float: right;
+    margin-top: 10%;
+}
+
+ 
+.rightside li{
+    /* list-style-type: none; */
+    padding: 25px;
+}
+
+.image_div{
+    position:fixed;
+    width: 25%;
+    float:left;
+}
+.nav{
+    width: 25%;
+    height: auto;
+    position: fixed;
+    top: 40%;
+    left: 0;
+}
+
+.nav a{
+    text-decoration: none;
+    font-size: 28px;
+    font-family: roboto;
+    font-style: italic;
+    height: 70px;
+    margin: 5px 0;
+    float: left;
+    display: inline-block;
+    line-height: 75px;
+    text-align: center; 
+    color: white;
+    background-color: rgba(0,0,0,0.2);
+    transition: 300ms;
+    
+}
+ 
+/*a.active{
+
+}
+*/
+.nav a:hover{
+    background-color: grey;
+    color: green;
+    width: 100%;
+}
+
+.a{
+    width: 67%;
+}
+
+.b{
+    width: 74%;
+}
+.c{
+    width: 81%;
+}
+.d{
+    width: 88%;
+}
+
+.e{
+    width:95%;
+}
+.content{
+    width: 800px;
+    height: 550px;
+    right: 20;
+    top: 20%; 
+    display: inline-block;
+}
+
+.home{
+    position:relative;
+    top: 7%;
+    width: 80%;
+    padding-left: 10%;
+    bottom: 10px;
+    height: 130%;
+    left: 65%;
+    font-family: verdana;
+    background-color: rgba(211,211,211,0.03);
+    border-radius: 4%; 
+    
+}
+
+
+.qualification, .hobbies, .project, .extrac{
+    height: 100%;
+    width: 28em;
+    position: relative;
+    bottom: 0px;
+    color: black;
+    font-family: Roboto;
+    margin-top:80%;
+    left: 55%;
+    padding-top: 20%;
+    padding-right: 5%;
+    padding-left: 15%;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgba(211,211,211,0.025);
+    border-radius: 4%; 
+    align-content: center;
+}
+
+.qualification ul li{
+    padding-top: 20px;
+}
+
+.hobbies ul li{
+    padding-top: 20px;
+}
+
+.project ul li{
+    padding-top: 20px;
+}
+
+.project h3{
+    color: white;
+    font-family: verdana;
+    padding-top: 10%;
+    left: 55%;
+    padding-left: 25%;
+    font-size: 28px;
+    font-style: italic;
+    color: black;
+    font-weight: bold;
+  
+}
+
+.home h1{
+    color: black;
+    padding-top: 50%;
+    font-size: 45px;
+    padding-right: 90px;
+    border-bottom: 3px solid white;
+}
+
+.home h3{
+    font-size: 18px;
+    padding:5px 0; 
+    color: rgba(0,244,255,0.7);
+}
+
+.extrac{
+    margin-bottom: 20px;
+}
+
